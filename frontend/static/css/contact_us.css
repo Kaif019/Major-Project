@@ -7,11 +7,6 @@
     /* font-family: 'Poppins', sans-serif; */
 }
 
-body {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('../image/contactus.png');
-    background-size: cover;
-}
-
 /* Navbar */
 
 .navbar {
@@ -28,8 +23,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(bg.jpg);
     background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('../image/contact-us.png');
 }
 
 .contact .content {
@@ -43,9 +38,10 @@ body {
     color: #fff;
 }
 
-.contact .content h2 {
-    font-weight: 300;
-    color: #fff;
+.contact .content p {
+    font-weight: 400;
+    color: #000;
+    font-size: 23px;
 }
 
 .container {
@@ -79,6 +75,10 @@ body {
     font-size: 22px;
 }
 
+.text {
+    color: #000;
+}
+
 .container .contactInfo .box .icon .text {
     display: flex;
     margin-left: 20px;
@@ -90,7 +90,7 @@ body {
 
 .container .contactInfo .box .icon .text h3 {
     font-weight: 500;
-    color: #00bcd4;
+    color: #000;
 }
 
 .contactForm {
@@ -101,7 +101,7 @@ body {
 
 .contactForm h2 {
     font-size: 30px;
-    color: #333;
+    color: #000;
     font-weight: 500;
 }
 

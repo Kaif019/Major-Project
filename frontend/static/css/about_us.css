@@ -17,6 +17,11 @@ body {
   color: #fff;
 }
 
+.about-us {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url('../image/about-us.png');
+  background-size: cover;
+}
+
 .heading {
   width: 90%;
   display: flex;
@@ -24,12 +29,13 @@ body {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin: 20px auto;
+  margin: 0px auto 20px;
+  padding: 40px 0px 0px;
 }
 
 .heading h1 {
   font-size: 50px;
-  color: #000;
+  color: #fff;
   margin-bottom: 25px;
   position: relative;
 }
@@ -41,19 +47,19 @@ body {
   height: 4px;
   display: block;
   margin: 0 auto;
-  background-color: #2ECC71;
+  background-color: #000;
 }
 
 .heading p {
   font-size: 18px;
-  color: #666;
+  color: #fff;
   margin-bottom: 35px;
 }
 
 .container {
   width: 90%;
   margin: 0 auto;
-  padding: 10px 20px;
+  padding: 10px 20px 45px;
 }
 
 .about {
@@ -87,7 +93,11 @@ body {
 .about-content h2 {
   font-size: 23px;
   margin-bottom: 15px;
-  color: #333;
+  color: #000;
+}
+
+.about-content .about-text {
+  font-size: 35px;
 }
 
 .about-content p {
@@ -98,7 +108,7 @@ body {
 
 @media screen and (max-width:768px) {
   .heading {
-    padding: 0px 20px;
+    padding: 40px 20px 10px;
   }
 
   .heading h1 {
